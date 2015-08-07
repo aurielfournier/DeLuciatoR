@@ -22,3 +22,18 @@ theme_ggEHD = function(base_size=18, ...){
 		...
 	))
 }
+
+
+theme_krementz <- function(){
+  theme(axis.text.x = element_text(size=12,color="black"),
+        axis.text.y = element_text(size=12,color="black"),
+        axis.title.x=element_text(size=20),
+        axis.title.y=element_text(size=20),
+        plot.background = element_blank(),
+        panel.border=element_blank(),
+        panel.grid.major= element_line(colour=NA), 
+        panel.grid.minor=element_line(colour=NA),
+        title=element_text(size=20),
+        panel.background = element_rect(fill = "white"),
+        axis.line=element_line(colour="black"))
+}
